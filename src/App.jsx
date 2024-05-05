@@ -1,4 +1,5 @@
 import React from "react";
+import Confetti from "react-confetti";
 import "./index.css";
 import Dice from "./Dice";
 
@@ -60,6 +61,7 @@ export default function App() {
 
   return (
     <main>
+      {tenzies && <Confetti />}
       <div className="bord">
         <div className="header">
           <h1>Tenzies</h1>

@@ -11,6 +11,9 @@
   src: url(./assets/fonts/Roboto-Bold.ttf);
 }
 
+body {
+  overflow: hidden;
+}
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +26,7 @@ main {
   background: rgba(2, 32, 112, 0.582);
   display: flex;
   align-items: center;
+  overflow: hidden;
   justify-content: center;
 }
 
